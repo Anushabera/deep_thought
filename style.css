@@ -1,0 +1,121 @@
+*{
+    margin:2px;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 100%;
+    margin: 0;
+    padding: 0 1.9rem;
+    background-color: white;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
+.heading{
+    color: #0029ff;
+    margin-top: 10px;
+}
+.deep_thought{
+    font-size: 1rem;
+    font-family: arial;
+    font-weight: 20px;;
+    background-color: white;
+    color: #0029ff;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+}
+.logo{
+    background-image: url("images/site-logo.svg");
+    background-size: cover;
+    margin-right: 50px;
+    height: 50px;
+    width: 100%;
+}
+.home{
+    margin-right: 1px;
+    margin-left: 700px;
+}
+.screw_diver{
+    margin-right: 1px;
+    justify-content:right;
+}
+.bell{
+    margin-right: 1px;
+    justify-content:right;
+}
+.profile{
+    margin-right: 1px;
+}
+.top-container{
+    height: 100px;
+    width: auto;
+    background-color: rgb(207, 204, 204);
+    border: 1px solid #ccc;
+    margin-top: 40px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    border-radius: 10px;
+}
+.next-container{
+    display: flex;
+    border-radius: 10px;
+} 
+.box{
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+}
+.nav-bar{
+    height: 8%;
+    margin: 0;
+    padding: 0 1.9rem;
+    background-color: black;
+    color: white;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+}
+p{
+    margin-top: 20px;
+}
+.title{
+    margin: 10px 10px 10px 10px;
+    background-color: white;
+    height: 30px;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+    box-sizing: border-box;
+    border-top-left-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.Title{
+    margin-top: 20px;
+}
+.Content{
+    margin-top: 20px;
+}
+.navbar1{
+    height: 80px;
+    margin: 20px 20px 0 20px;
+    background-color: white;
+    display: flex!important;
+    align-items: center!important;
+    justify-content: space-between!important;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+}
