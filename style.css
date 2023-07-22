@@ -119,3 +119,155 @@ p{
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
     border-radius: 10px;
 }
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  .accordion {
+    width: 300px;
+    margin: 20px auto;
+  }
+  .accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+  }
+  
+  .accordion-header h2 {
+    margin: 0;
+  }
+  
+  /* Caret icon styles */
+  .caret-icon {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #555;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Flipping the caret when accordion is open */
+  .accordion-item.open .caret-icon {
+    transform: rotate(180deg);
+  }
+  
+  /* Accordion content styles */
+  .accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  /* Showing the content when accordion is open */
+  .accordion-item.open .accordion-content {
+    display: block;
+  }
+  /* Reset default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main accordion container */
+  .custom-accordion {
+    width: 300px;
+    margin: 20px auto;
+  }
+  
+  /* Accordion item styles */
+  .custom-accordion-item {
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+  }
+  
+  /* Accordion header styles */
+  .custom-accordion-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f1f1f1;
+  }
+  
+  .custom-accordion-header h2 {
+    margin: 0;
+  }
+  
+  /* Caret icon styles */
+  .custom-caret-icon {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #555;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Flipping the caret when accordion is open */
+  .custom-accordion-item.open .custom-caret-icon {
+    transform: rotate(180deg);
+  }
+  
+  /* Accordion content styles */
+  .custom-accordion-content {
+    display: none;
+    padding: 10px;
+  }
+  
+  /* Showing the content when accordion is open */
+  .custom-accordion-item.open .custom-accordion-content {
+    display: block;
+  }
+  .box-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .threadbox {
+    flex: 1;
+    width: 200px; /* Set the width */
+    height: 200px; /* Set the height to make the box square */
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .nav-bar {
+    background-color: #f1f1f1;
+    padding: 10px;
+  }
+  
+  .nav-bar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .nav-bar li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .nav-bar li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-bar a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .content {
+    margin-top: 10px;
+  }
